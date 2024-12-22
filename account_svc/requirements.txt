@@ -1,0 +1,6 @@
+flask
+flask_sqlalchemy
+pika
+reportlab
+grpcio 
+grpcio-tools
