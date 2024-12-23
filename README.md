@@ -64,7 +64,7 @@ cd notification_svc_2 && sh bin/setup.sh
 
 1. Open a new terminal
 ```
-curl -X POST http://127.0.0.1:5000/account/create -d '{"name": "Manish Kumar", "phone_number": "8873186985", "account_type": "savings"}' -H "Content-Type: application/json"
+curl -X POST http://127.0.0.1:5000/account/create -d '{"name": "Manish Kumar", "phone_number": "8873186985", "account_type": "Savings"}' -H "Content-Type: application/json"
 ```
 
 ### 2. Fetch Customer Details
