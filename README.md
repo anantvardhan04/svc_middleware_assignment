@@ -1,22 +1,20 @@
 # Project Setup Instructions
 
 This project has 5 services as mentioned below:
-1. account_svc_rest - Implements rest APIs for various account related functionalities
-2. account_svc_grpc - Implements grpc server for fetching the account statement
-3. pdf_generation_svc - Implements pdf generation logic for the account statement
-4. notification_svc_1 - Consumes messages for the account creation events
-5. notification_svc_2 - Consumes messages for the account creation as well as pdf generated events
+1. **account_svc_rest** - Implements rest APIs for various account related functionalities
+2. **account_svc_grpc** - Implements grpc server for fetching the account statement
+3. **pdf_generation_svc** - Implements pdf generation logic for the account statement
+4. **notification_svc_1** - Consumes messages for the account creation events
+5. **notification_svc_2** - Consumes messages for the account creation as well as pdf generated events
 
 
 ## Pre-requisites
 
 1. **Clone the Repository**
 
-    ```sh
-
-    git clone https://github.com/yourusername/yourrepository.git
-    cd yourrepository
-
+    ```
+    git clone git@github.com:anantvardhan04/svc_middleware_assignment.git
+    cd svc_middleware_assignment
     ```
 
 ## Setup the project and Run all the services
