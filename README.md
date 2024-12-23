@@ -1,9 +1,5 @@
 # Project Setup Instructions
 
-## Assumptions
-
-1. Account statement API for the account service has been implemented using gRPC protocol, whereas rest all APIs for account service are REST based.
-
 This project has 5 services as mentioned below:
 1. **account_svc_rest** - Implements rest APIs for various account related functionalities
 2. **account_svc_grpc** - Implements grpc server for fetching the account statement
@@ -11,6 +7,9 @@ This project has 5 services as mentioned below:
 4. **notification_svc_1** - Consumes messages for the account creation events
 5. **notification_svc_2** - Consumes messages for the account creation as well as pdf generated events
 
+## Assumptions
+
+1. Account statement API for the account service has been implemented using gRPC protocol, whereas rest all APIs for account service are REST based.
 
 ## Pre-requisites
 
