@@ -1,2 +1,4 @@
 pika
 reportlab
+grpcio
+grpcio-tools
