@@ -12,11 +12,9 @@ This project has 5 services as mentioned below:
 
 1. **Clone the Repository**
 
-    ```
-    git clone git@github.com:anantvardhan04/svc_middleware_assignment.git
-    
-    cd svc_middleware_assignment
-    ```
+```
+git clone git@github.com:anantvardhan04/svc_middleware_assignment.git && cd svc_middleware_assignment
+```
 
 ## Setup the project and Run all the services
 
